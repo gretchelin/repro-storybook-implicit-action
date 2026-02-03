@@ -1,0 +1,20 @@
+[13:00:46.622] [INFO] storybook v10.1.11
+[13:00:47.256] [DEBUG] Getting package.json info for /home/wsl/jobs/mdl/website-ui-library/package.json...
+[13:00:47.719] [INFO] Starting...
+[13:00:47.737] [WARN] No story files found for the specified pattern: [34mcomponents/**/*.mdx[39m
+[13:00:47.739] [WARN] No story files found for the specified pattern: [34msrc/stories/**/*.stories.@(ts|js|jsx|mjs)[39m
+[13:00:48.212] [DEBUG] Starting preview..
+[13:00:49.378] [ERROR] Failed to build the preview
+[13:00:49.380] [ERROR] [38;2;241;97;97mTypeError: Cannot read properties of undefined (reading 'alias')[39m
+    at Object.viteFinal (file://./.storybook/main.ts:29:42)
+    at file://./node_modules/.pnpm/storybook@10.1.11_@testing-library+dom@9.3.4_prettier@3.5.3_react-dom@19.1.1_react@19.1.1__react@19.1.1/node_modules/storybook/dist/_node-chunks/chunk-Q4DOC7HF.js:10134:36
+    at async createViteServer (file://./node_modules/.pnpm/@storybook+builder-vite@10.1.11_esbuild@0.25.9_rollup@4.50.1_storybook@10.1.11_@testing_39090c81bc4045a9e91ef585da3c5b60/node_modules/@storybook/builder-vite/dist/index.js:6410:21)
+    at async Module.start (file://./node_modules/.pnpm/@storybook+builder-vite@10.1.11_esbuild@0.25.9_rollup@4.50.1_storybook@10.1.11_@testing_39090c81bc4045a9e91ef585da3c5b60/node_modules/@storybook/builder-vite/dist/index.js:6435:17)
+    at async storybookDevServer (file://./node_modules/.pnpm/storybook@10.1.11_@testing-library+dom@9.3.4_prettier@3.5.3_react-dom@19.1.1_react@19.1.1__react@19.1.1/node_modules/storybook/dist/core-server/index.js:6806:82)
+    at async buildOrThrow (file://./node_modules/.pnpm/storybook@10.1.11_@testing-library+dom@9.3.4_prettier@3.5.3_react-dom@19.1.1_react@19.1.1__react@19.1.1/node_modules/storybook/dist/core-server/index.js:5555:12)
+    at async buildDevStandalone (file://./node_modules/.pnpm/storybook@10.1.11_@testing-library+dom@9.3.4_prettier@3.5.3_react-dom@19.1.1_react@19.1.1__react@19.1.1/node_modules/storybook/dist/core-server/index.js:7208:66)
+    at async withTelemetry (file://./node_modules/.pnpm/storybook@10.1.11_@testing-library+dom@9.3.4_prettier@3.5.3_react-dom@19.1.1_react@19.1.1__react@19.1.1/node_modules/storybook/dist/_node-chunks/chunk-2372JZ52.js:209:12)
+    at async dev (file://./node_modules/.pnpm/storybook@10.1.11_@testing-library+dom@9.3.4_prettier@3.5.3_react-dom@19.1.1_react@19.1.1__react@19.1.1/node_modules/storybook/dist/bin/core.js:2734:3)
+    at async _Command.<anonymous> (file://./node_modules/.pnpm/storybook@10.1.11_@testing-library+dom@9.3.4_prettier@3.5.3_react-dom@19.1.1_react@19.1.1__react@19.1.1/node_modules/storybook/dist/bin/core.js:2801:92)
+[13:00:49.381] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.

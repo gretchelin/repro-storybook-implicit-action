@@ -1,0 +1,56 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Misc
+.DS_Store
+.fleet
+dist
+dist-ssr
+*.local
+
+# IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Storybook
+*storybook.log
+storybook-static
+
+# Testing
+coverage
+/cypress/videos/
+/cypress/screenshots/
+
+# Build
+.npmrc
+.vercel
+vercel.json
